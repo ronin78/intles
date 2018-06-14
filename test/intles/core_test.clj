@@ -1,6 +1,6 @@
-(ns dlj.core-test
+(ns intles.core-test
   (:require [clojure.test :refer :all]
-            [dlj.core :refer :all]))
+            [intles.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."
