@@ -1,36 +1,3 @@
-# dlj
+# intles
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar dlj-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2018 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+A toy project for machine learning. Inspired by rock-paper-scissors, a correct move in the game of intles is to throw an exactly inverse vector to your opponent. I am starting with vectors of length three, so the correct move on observing the vector [1 0 1] is [0 1 0]. I am working on training models that will predict what the opponent (human or machine) will throw on the next iteration and throwing the appropriate inverse.
